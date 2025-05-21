@@ -3,8 +3,11 @@
 
 
 *Nombres de los integrantes:
+
  Fabiola Fang Sanchez
+ 
  Isabel Flores Rodriguez
+ 
  Estefania Nuñez Jimenez
 
 
