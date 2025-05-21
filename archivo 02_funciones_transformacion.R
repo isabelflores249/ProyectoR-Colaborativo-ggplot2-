@@ -5,7 +5,7 @@ desvest <- function(vector) {
   }
   return(sd(vector, na.rm = TRUE))
 }
-
+#hola fabi 
 # función 2
 col_na <- function(dataframe) {
   if (!is.data.frame(dataframe)) {
