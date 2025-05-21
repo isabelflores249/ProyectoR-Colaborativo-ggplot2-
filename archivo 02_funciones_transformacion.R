@@ -3,7 +3,17 @@ desvest <- function(vector) {
   if (!is.numeric(vector)) {
     stop("El vector debe ser numérico")
   }
-  return(sd(vector, na.rm = TRUE))
+vector <- vector[!is.na(vector)]
+n <- length(vector)
+  if (n < 2) {
+    stop("El vector debe tener al menos dos valores no NA")
+}
+  
+# formula
+media <- mean(vector)
+suma_cuadrados <- sum((vector - media)^2)
+desviacion_estandar <- sqrt(suma_cuadrados / (n - 1))
+  return(desviacion_estandar)
 }
 
 # función 2
