@@ -30,10 +30,9 @@ print(contador)
 
 #Crear un nuevo data frame con los resultados de la iteración.
 
-resultados <- data.frame( edad = c(),
-                          promedio = c(),
-                          creditos_aprobados = c()
-  
+resultados <- data.frame(columna = character(),
+                         media = numeric(),
+                         cantidad_mayores = numeric() 
 )
 
 #Guardar ese nuevo data frame en un archivo .csv usando write.csv() en la carpeta /resultados/
